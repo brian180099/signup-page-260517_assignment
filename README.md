@@ -11,8 +11,10 @@
 
 ## Figma 디자인
 
-![Figma 디자인](./images/figma-signup.png)
+<img width="1172" height="796" alt="image" src="https://github.com/user-attachments/assets/09bde703-2788-4435-a179-fe3776a3a337" />
+
 
 ## React 실행 화면
 
-![React 실행 화면](./images/react-signup.png)
+<img width="1846" height="825" alt="image" src="https://github.com/user-attachments/assets/800837ad-a90c-437a-a59e-7973ae2a091c" />
+
