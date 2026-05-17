@@ -1,0 +1,92 @@
+/* login.css */
+
+.login-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}/login.jsx
+
+import React from "react";
+
+export default function Login() {
+  return (
+  );
+}
+
+.login-page {
+  width: 393px;
+  height: 100vh;
+  background-color: /* 이 부분에 피그마에서 설정한 배경색 설정 */;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 130px 24px 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.login-title {
+  color: /* 이 부분에 피그마에서 설정한 타이틀 색 설정 */;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 55px;
+}
+
+.login-form-wrapper {
+  /* 로그인 버튼과 login-form을 묶는 역할 */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 48px; /* 로그인 버튼과 login-form 간의 간격 */
+}
+
+.login-form {
+  /* 아이디, 비밀번호 입력 요소를 묶는 역할 */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* 아이디, 비밀번호 입력 요소 간의 간격 */
+}
+
+.login-id-password {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.login-label {
+  font-size: 16px;
+  font-weight: 500;
+  color: /* 이 부분에 피그마에서 설정한 id, password 라벨 색 설정 */;
+}
+
+.login-input {
+  height: 44px;
+  width: 100%;
+  border: 1px solid /* 이 부분에 피그마에서 설정한 입력칸 테두리 색 설정 */;
+  border-radius: 999px;
+  background-color: /* 이 부분에 피그마에서 설정한 입력칸 색 설정 */;
+  padding: 0 16px;
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.login-button {
+  height: 50px;
+  width: 100%;
+  border: none;
+  border-radius: 999px;
+  background-color: /* 이 부분에 피그마에서 설정한 버튼 색 설정 */;
+  color: /* 이 부분에 피그마에서 설정한 버튼 글씨 색 설정 */;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: rgba(129, 145, 47, 1)/* 이 부분에 피그마에서 설정한 배경색 설정 */;
+}
+
+.login-button:active {
+  /* 로그인 버튼이 클릭되었을 때의 스타일 */
+  transform: translateY(1px);
+}
